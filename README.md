@@ -2,6 +2,7 @@
 ![alt text](https://github.com/therickthe/therick64BASP/blob/master/01%20therick64BASP_bottom.png)
 
 BA = Breakaway
+
 SP = Southpaw
 
 A 4x12 + 4x4 ortho keyboard with USB C, SMD components, and 19mm spacing.
