@@ -9,7 +9,7 @@ A 4x12 + 4x4 ortho keyboard with USB C, SMD components, and 19mm spacing.
 
 This is essentially a dumbed down Planck clone plus a southpaw numpad. The numpad is able to be snapped off to have just a 4x12.
 
-If you want a regular side numpad, look at the therick64BA
+If you want a regular side numpad, look at the [therick64BA](https://github.com/therickthe/therick64BA). It uses the same firmware.
 
 **Note: firmware is the same as therick64BA**
 
@@ -38,7 +38,7 @@ No
 #### Does it have Alps support?
 No
 
-#### Does it have Choc support?
+#### Choc support?
 No
 
 #### Will you add any of these?
@@ -63,5 +63,5 @@ USB C is the future. Until a new standard comes out
 Boo hoo. I suggest building one. Zap Cables is a good place to get parts
 
 #### Why is it named therick?
-It started in fall of 2005 when I was just a boy. I started a new job, and needed a login name. The manager wrote The Rick (my first name is Rick). It has stuck ever since. Thanks, Sam!
+It started in fall of 2005 when I was just a boy. I started a new job, and needed a login name. The manager wrote The Rick (my first name is Rick). It has stuck ever since. Thanks, Sam! 64 is for 64 keys. Hope that was obvious.
 
