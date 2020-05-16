@@ -1012,4 +1012,25 @@ Wire Notes Line
 	2650 5000 2650 2950
 Wire Notes Line
 	1000 2950 2650 2950
+$Comp
+L Mechanical:MountingHole H19
+U 1 1 5EBF4BCA
+P 1150 5200
+F 0 "H19" H 1250 5246 50  0000 L CNN
+F 1 "MountingHole" H 1250 5155 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 1150 5200 50  0001 C CNN
+F 3 "~" H 1150 5200 50  0001 C CNN
+	1    1150 5200
+	1    0    0    -1  
+$EndComp
+Text Notes 1900 5250 0    50   ~ 0
+Reset Hole
+Wire Notes Line
+	1000 5050 2650 5050
+Wire Notes Line
+	2650 5050 2650 5350
+Wire Notes Line
+	2650 5350 1000 5350
+Wire Notes Line
+	1000 5350 1000 5050
 $EndSCHEMATC
