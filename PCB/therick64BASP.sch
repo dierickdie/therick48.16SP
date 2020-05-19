@@ -20,7 +20,7 @@ U 1 1 5DAFBA19
 P 9250 5050
 F 0 "H1" H 9350 5100 50  0000 L CNN
 F 1 "MountingHole" H 9350 5005 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 9250 5050 50  0001 C CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 9250 5050 50  0001 C CNN
 F 3 "~" H 9250 5050 50  0001 C CNN
 	1    9250 5050
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5DAFC41A
 P 9250 5450
 F 0 "H3" H 9350 5496 50  0000 L CNN
 F 1 "MountingHole" H 9350 5405 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 9250 5450 50  0001 C CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 9250 5450 50  0001 C CNN
 F 3 "~" H 9250 5450 50  0001 C CNN
 	1    9250 5450
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5DAFCFC0
 P 9250 5650
 F 0 "H4" H 9350 5696 50  0000 L CNN
 F 1 "MountingHole" H 9350 5605 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 9250 5650 50  0001 C CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 9250 5650 50  0001 C CNN
 F 3 "~" H 9250 5650 50  0001 C CNN
 	1    9250 5650
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5DAFD908
 P 9250 5850
 F 0 "H5" H 9350 5896 50  0000 L CNN
 F 1 "MountingHole" H 9350 5805 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 9250 5850 50  0001 C CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 9250 5850 50  0001 C CNN
 F 3 "~" H 9250 5850 50  0001 C CNN
 	1    9250 5850
 	1    0    0    -1  
@@ -61,23 +61,23 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 5DAFE1B7
-P 9250 6050
-F 0 "H6" H 9350 6096 50  0000 L CNN
-F 1 "MountingHole" H 9350 6005 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 9250 6050 50  0001 C CNN
-F 3 "~" H 9250 6050 50  0001 C CNN
-	1    9250 6050
+P 10150 5050
+F 0 "H6" H 10250 5096 50  0000 L CNN
+F 1 "MountingHole" H 10250 5005 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 10150 5050 50  0001 C CNN
+F 3 "~" H 10150 5050 50  0001 C CNN
+	1    10150 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L lets_split-cache:HOLE U2
 U 1 1 5DE56E92
-P 9400 4500
-F 0 "U2" H 9578 4553 60  0000 L CNN
-F 1 "HOLE" H 9578 4447 60  0000 L CNN
-F 2 "Artwork:rick_large" H 9400 4500 60  0001 C CNN
-F 3 "" H 9400 4500 60  0001 C CNN
-	1    9400 4500
+P 9300 4500
+F 0 "U2" H 9478 4553 60  0000 L CNN
+F 1 "HOLE" H 9478 4447 60  0000 L CNN
+F 2 "Artwork:rick_large" H 9300 4500 60  0001 C CNN
+F 3 "" H 9300 4500 60  0001 C CNN
+	1    9300 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -456,18 +456,18 @@ Wire Notes Line
 	2050 7950 2050 7150
 Wire Notes Line
 	2050 7150 950  7150
-Text Notes 9800 6900 0    50   ~ 0
-Screw Holes
-Text Notes 9250 4750 0    50   ~ 0
+Text Notes 9700 6050 0    50   ~ 0
+Planck Screw Holes
+Text Notes 9150 4750 0    50   ~ 0
 Graphic
 Wire Notes Line
-	9200 4800 9200 4300
+	9100 4800 9100 4300
 Wire Notes Line
-	9200 4300 9850 4300
+	9100 4300 9750 4300
 Wire Notes Line
-	9850 4300 9850 4800
+	9750 4300 9750 4800
 Wire Notes Line
-	9850 4800 9200 4800
+	9750 4800 9100 4800
 Text GLabel 2050 5750 2    50   BiDi ~ 0
 D+BUS
 Text GLabel 2050 5450 2    50   BiDi ~ 0
@@ -768,7 +768,7 @@ U 1 1 5DDD64AC
 P 9250 5250
 F 0 "H2" H 9350 5300 50  0000 L CNN
 F 1 "MountingHole" H 9350 5205 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 9250 5250 50  0001 C CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 9250 5250 50  0001 C CNN
 F 3 "~" H 9250 5250 50  0001 C CNN
 	1    9250 5250
 	1    0    0    -1  
@@ -1435,45 +1435,45 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H7
 U 1 1 5F261739
-P 10150 5050
-F 0 "H7" H 10250 5100 50  0000 L CNN
-F 1 "MountingHole" H 10250 5005 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 10150 5050 50  0001 C CNN
-F 3 "~" H 10150 5050 50  0001 C CNN
-	1    10150 5050
+P 10150 5250
+F 0 "H7" H 10250 5300 50  0000 L CNN
+F 1 "MountingHole" H 10250 5205 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 10150 5250 50  0001 C CNN
+F 3 "~" H 10150 5250 50  0001 C CNN
+	1    10150 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 5F26173F
-P 10150 5450
-F 0 "H9" H 10250 5496 50  0000 L CNN
-F 1 "MountingHole" H 10250 5405 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 10150 5450 50  0001 C CNN
-F 3 "~" H 10150 5450 50  0001 C CNN
-	1    10150 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H10
-U 1 1 5F261745
 P 10150 5650
-F 0 "H10" H 10250 5696 50  0000 L CNN
+F 0 "H9" H 10250 5696 50  0000 L CNN
 F 1 "MountingHole" H 10250 5605 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 10150 5650 50  0001 C CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 10150 5650 50  0001 C CNN
 F 3 "~" H 10150 5650 50  0001 C CNN
 	1    10150 5650
 	1    0    0    -1  
 $EndComp
 $Comp
+L Mechanical:MountingHole H10
+U 1 1 5F261745
+P 10150 5850
+F 0 "H10" H 10250 5896 50  0000 L CNN
+F 1 "MountingHole" H 10250 5805 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 10150 5850 50  0001 C CNN
+F 3 "~" H 10150 5850 50  0001 C CNN
+	1    10150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
 L Mechanical:MountingHole H8
 U 1 1 5F26174E
-P 10150 5250
-F 0 "H8" H 10250 5300 50  0000 L CNN
-F 1 "MountingHole" H 10250 5205 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 10150 5250 50  0001 C CNN
-F 3 "~" H 10150 5250 50  0001 C CNN
-	1    10150 5250
+P 10150 5450
+F 0 "H8" H 10250 5500 50  0000 L CNN
+F 1 "MountingHole" H 10250 5405 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 10150 5450 50  0001 C CNN
+F 3 "~" H 10150 5450 50  0001 C CNN
+	1    10150 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1483,7 +1483,6 @@ Wire Wire Line
 Connection ~ 1300 6850
 Wire Wire Line
 	1350 6850 1400 6850
-Connection ~ 1400 6850
 $Comp
 L acheronSymbols:TYPE-C-31-M12_13 J1
 U 1 1 5E315A49
@@ -1495,12 +1494,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1600 54
 	1    1400 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2600 6850 2600 4650
-Wire Wire Line
-	1400 6850 2600 6850
-Wire Wire Line
-	2600 4650 4000 4650
 $Comp
 L lets_split-cache:HOLE U6
 U 1 1 5F58EC6C
@@ -3309,95 +3302,126 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H11
 U 1 1 5EC1BF71
-P 9250 6250
-F 0 "H11" H 9350 6300 50  0000 L CNN
-F 1 "MountingHole" H 9350 6205 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 9250 6250 50  0001 C CNN
-F 3 "~" H 9250 6250 50  0001 C CNN
-	1    9250 6250
+P 9250 6350
+F 0 "H11" H 9350 6400 50  0000 L CNN
+F 1 "MountingHole" H 9350 6305 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 9250 6350 50  0001 C CNN
+F 3 "~" H 9250 6350 50  0001 C CNN
+	1    9250 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H13
 U 1 1 5EC1BF77
-P 9250 6650
-F 0 "H13" H 9350 6696 50  0000 L CNN
-F 1 "MountingHole" H 9350 6605 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 9250 6650 50  0001 C CNN
-F 3 "~" H 9250 6650 50  0001 C CNN
-	1    9250 6650
+P 9250 6750
+F 0 "H13" H 9350 6796 50  0000 L CNN
+F 1 "MountingHole" H 9350 6705 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 9250 6750 50  0001 C CNN
+F 3 "~" H 9250 6750 50  0001 C CNN
+	1    9250 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H14
 U 1 1 5EC1BF7D
-P 10150 5850
-F 0 "H14" H 10250 5896 50  0000 L CNN
-F 1 "MountingHole" H 10250 5805 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 10150 5850 50  0001 C CNN
-F 3 "~" H 10150 5850 50  0001 C CNN
-	1    10150 5850
+P 9250 6950
+F 0 "H14" H 9350 6996 50  0000 L CNN
+F 1 "MountingHole" H 9350 6905 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 9250 6950 50  0001 C CNN
+F 3 "~" H 9250 6950 50  0001 C CNN
+	1    9250 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H12
 U 1 1 5EC1BF83
-P 9250 6450
-F 0 "H12" H 9350 6500 50  0000 L CNN
-F 1 "MountingHole" H 9350 6405 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 9250 6450 50  0001 C CNN
-F 3 "~" H 9250 6450 50  0001 C CNN
-	1    9250 6450
+P 9250 6550
+F 0 "H12" H 9350 6600 50  0000 L CNN
+F 1 "MountingHole" H 9350 6505 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 9250 6550 50  0001 C CNN
+F 3 "~" H 9250 6550 50  0001 C CNN
+	1    9250 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H16
 U 1 1 5EC1BF89
-P 10150 6250
-F 0 "H16" H 10250 6300 50  0000 L CNN
-F 1 "MountingHole" H 10250 6205 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 10150 6250 50  0001 C CNN
-F 3 "~" H 10150 6250 50  0001 C CNN
-	1    10150 6250
+P 10150 6550
+F 0 "H16" H 10250 6600 50  0000 L CNN
+F 1 "MountingHole" H 10250 6505 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 10150 6550 50  0001 C CNN
+F 3 "~" H 10150 6550 50  0001 C CNN
+	1    10150 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H18
 U 1 1 5EC1BF8F
-P 10150 6650
-F 0 "H18" H 10250 6696 50  0000 L CNN
-F 1 "MountingHole" H 10250 6605 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 10150 6650 50  0001 C CNN
-F 3 "~" H 10150 6650 50  0001 C CNN
-	1    10150 6650
+P 10150 6950
+F 0 "H18" H 10250 6996 50  0000 L CNN
+F 1 "MountingHole" H 10250 6905 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 10150 6950 50  0001 C CNN
+F 3 "~" H 10150 6950 50  0001 C CNN
+	1    10150 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H15
 U 1 1 5EC1BF95
-P 10150 6050
-F 0 "H15" H 10250 6096 50  0000 L CNN
-F 1 "MountingHole" H 10250 6005 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 10150 6050 50  0001 C CNN
-F 3 "~" H 10150 6050 50  0001 C CNN
-	1    10150 6050
+P 10150 6350
+F 0 "H15" H 10250 6396 50  0000 L CNN
+F 1 "MountingHole" H 10250 6305 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 10150 6350 50  0001 C CNN
+F 3 "~" H 10150 6350 50  0001 C CNN
+	1    10150 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H17
 U 1 1 5EC1BF9B
-P 10150 6450
-F 0 "H17" H 10250 6500 50  0000 L CNN
-F 1 "MountingHole" H 10250 6405 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 10150 6450 50  0001 C CNN
-F 3 "~" H 10150 6450 50  0001 C CNN
-	1    10150 6450
+P 10150 6750
+F 0 "H17" H 10250 6800 50  0000 L CNN
+F 1 "MountingHole" H 10250 6705 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 10150 6750 50  0001 C CNN
+F 3 "~" H 10150 6750 50  0001 C CNN
+	1    10150 6750
 	1    0    0    -1  
 $EndComp
+$Comp
+L lets_split-cache:HOLE U8
+U 1 1 5ED5F324
+P 10000 4500
+F 0 "U8" H 10178 4553 60  0000 L CNN
+F 1 "HOLE" H 10178 4447 60  0000 L CNN
+F 2 "Artwork:THERICK" H 10000 4500 60  0001 C CNN
+F 3 "" H 10000 4500 60  0001 C CNN
+	1    10000 4500
+	1    0    0    -1  
+$EndComp
+Text Notes 9850 4750 0    50   ~ 0
+THERICK
 Wire Notes Line
-	10850 4900 10850 6950
+	9800 4300 9800 4800
 Wire Notes Line
-	10850 6950 9100 6950
+	9800 4800 10450 4800
 Wire Notes Line
-	9100 4900 9100 6950
+	10450 4800 10450 4300
+Wire Notes Line
+	10450 4300 9800 4300
+Wire Notes Line
+	10850 4900 10850 6100
+Wire Notes Line
+	10850 6100 9100 6100
+Wire Notes Line
+	9100 6100 9100 4900
+Text Notes 9750 7150 0    50   ~ 0
+therick Screw Holes
+Wire Notes Line
+	9100 7200 9100 6200
+Wire Notes Line
+	9100 6200 10850 6200
+Wire Notes Line
+	10850 6200 10850 7200
+Wire Notes Line
+	10850 7200 9100 7200
 $EndSCHEMATC
