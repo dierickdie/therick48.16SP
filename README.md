@@ -1,11 +1,9 @@
-# therick64BASP
+# therick48+16SP
 ![alt text](https://github.com/therickthe/therick64BASP/blob/master/01%20therick64BASP_bottom.png)
-
-BA = Breakaway
 
 SP = Southpaw
 
-A 4x12 + 4x4 ortho keyboard with USB C, SMD components, and 19mm spacing.
+A 4x12 + 4x4 (48+16) ortho keyboard with USB C, SMD components, and 19mm spacing.
 
 This is essentially a dumbed down Planck clone plus a southpaw numpad. The numpad is able to be snapped off to have just a 4x12.
 
