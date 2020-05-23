@@ -1,5 +1,5 @@
 # therick48+16SP
-![alt text](https://github.com/therickthe/therick64BASP/blob/master/01%20therick64BASP_bottom.png)
+![alt text](https://github.com/therickthe/therick48.16SP/blob/master/01%20therick64BASP_bottom.png)
 
 SP = Southpaw
 
