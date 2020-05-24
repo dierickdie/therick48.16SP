@@ -1,17 +1,17 @@
-# therick48+16SP
+# therick48.16SP
 ![alt text](https://github.com/therickthe/therick48.16SP/blob/master/01%20therick48.16SP_bottom.png)
 
 SP = Southpaw
 
-A 4x12 + 4x4 (48+16) ortho keyboard with USB C, SMD components, and 19mm spacing.
+A 4x12 + 4x4 (48.16) ortho keyboard with USB C, SMD components, and 19mm spacing.
 
 This is essentially a dumbed down Planck clone plus a southpaw numpad. The numpad is able to be snapped off to have just a 4x12.
 
-If you want a regular side numpad, look at the [therick48+16](https://github.com/therickthe/therick64BA). It uses the same firmware.
+If you want a regular side numpad, look at the [therick48.16](https://github.com/therickthe/therick64BA). It uses the same firmware.
 
-**Note: firmware is the same as therick48+16**
+**Note: firmware is the same as therick48.16**
 
-Although everything should<sup>(tm)</sup> work as is, it hasn't been physically tested, and I like playing with the traces to make it prettier/more efficient.
+Although everything should<sup>(tm)</sup> work as is, it hasn't been physically tested.
 
 **USE AT YOUR OWN RISK!!!** I am not responsible for any dumb things you do, fry your computer, break anything, etc.
 
