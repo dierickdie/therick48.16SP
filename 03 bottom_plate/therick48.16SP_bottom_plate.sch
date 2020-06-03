@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:therick64BASP_bottom_plate-cache
+LIBS:therick48.16SP_bottom_plate-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1033,4 +1033,25 @@ Wire Notes Line
 	2650 5350 1000 5350
 Wire Notes Line
 	1000 5350 1000 5050
+$Comp
+L lets_split-cache:HOLE U71
+U 1 1 5EDDB181
+P 3150 3700
+F 0 "U71" H 3050 3750 60  0000 L CNN
+F 1 "HOLE" H 3050 3650 60  0000 L CNN
+F 2 "Artwork:THERICK" H 3150 3700 60  0001 C CNN
+F 3 "" H 3150 3700 60  0001 C CNN
+	1    3150 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 3000 3950 0    50   ~ 0
+Graphic
+Wire Notes Line
+	2950 4000 2950 3500
+Wire Notes Line
+	2950 3500 3350 3500
+Wire Notes Line
+	3350 3500 3350 4000
+Wire Notes Line
+	3350 4000 2950 4000
 $EndSCHEMATC
