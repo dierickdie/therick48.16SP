@@ -91,7 +91,7 @@ F 3 "" H 3150 3150 60  0001 C CNN
 	1    3150 3150
 	1    0    0    -1  
 $EndComp
-Text Notes 1450 4950 0    50   ~ 0
+Text Notes 1450 5150 0    50   ~ 0
 Screw Holes
 Text Notes 3000 3400 0    50   ~ 0
 Graphic
@@ -196,10 +196,6 @@ F 3 "~" H 1950 4700 50  0001 C CNN
 	1    1950 4700
 	1    0    0    -1  
 $EndComp
-Text Notes 4100 3900 0    50   ~ 0
-Mouse\nBites
-Wire Notes Line
-	3650 2950 3650 4050
 $Comp
 L lets_split-cache:HOLE U1
 U 1 1 5F4B4D1C
@@ -907,10 +903,6 @@ $EndComp
 Wire Notes Line
 	3650 2950 4400 2950
 Wire Notes Line
-	4400 2950 4400 4050
-Wire Notes Line
-	4400 4050 3650 4050
-Wire Notes Line
 	2950 2950 3350 2950
 Wire Notes Line
 	3350 2950 3350 3450
@@ -1005,34 +997,28 @@ F 3 "~" H 1950 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	1000 2950 1000 5000
-Wire Notes Line
-	1000 5000 2650 5000
-Wire Notes Line
-	2650 5000 2650 2950
-Wire Notes Line
 	1000 2950 2650 2950
 $Comp
 L Mechanical:MountingHole H19
 U 1 1 5EBF4BCA
-P 1150 5200
-F 0 "H19" H 1250 5246 50  0000 L CNN
-F 1 "MountingHole" H 1250 5155 50  0000 L CNN
-F 2 "random-keyboard-parts:Generic-Mounthole" H 1150 5200 50  0001 C CNN
-F 3 "~" H 1150 5200 50  0001 C CNN
-	1    1150 5200
+P 1150 5450
+F 0 "H19" H 1250 5496 50  0000 L CNN
+F 1 "MountingHole" H 1250 5405 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 1150 5450 50  0001 C CNN
+F 3 "~" H 1150 5450 50  0001 C CNN
+	1    1150 5450
 	1    0    0    -1  
 $EndComp
-Text Notes 1900 5250 0    50   ~ 0
+Text Notes 1900 5500 0    50   ~ 0
 Reset Hole
 Wire Notes Line
-	1000 5050 2650 5050
+	1000 5300 2650 5300
 Wire Notes Line
-	2650 5050 2650 5350
+	2650 5300 2650 5600
 Wire Notes Line
-	2650 5350 1000 5350
+	2650 5600 1000 5600
 Wire Notes Line
-	1000 5350 1000 5050
+	1000 5600 1000 5300
 $Comp
 L lets_split-cache:HOLE U71
 U 1 1 5EDDB181
@@ -1054,4 +1040,128 @@ Wire Notes Line
 	3350 3500 3350 4000
 Wire Notes Line
 	3350 4000 2950 4000
+$Comp
+L lets_split-cache:HOLE U72
+U 1 1 5EDF35E3
+P 3850 4200
+F 0 "U72" H 3750 4250 60  0000 L CNN
+F 1 "HOLE" H 3750 4150 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 3850 4200 60  0001 C CNN
+F 3 "" H 3850 4200 60  0001 C CNN
+	1    3850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U73
+U 1 1 5EDF35E9
+P 3850 4550
+F 0 "U73" H 3750 4600 60  0000 L CNN
+F 1 "HOLE" H 3750 4500 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 3850 4550 60  0001 C CNN
+F 3 "" H 3850 4550 60  0001 C CNN
+	1    3850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U78
+U 1 1 5EDF35EF
+P 4200 4200
+F 0 "U78" H 4100 4250 60  0000 L CNN
+F 1 "HOLE" H 4100 4150 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 4200 4200 60  0001 C CNN
+F 3 "" H 4200 4200 60  0001 C CNN
+	1    4200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U79
+U 1 1 5EDF35F5
+P 4200 4550
+F 0 "U79" H 4100 4600 60  0000 L CNN
+F 1 "HOLE" H 4100 4500 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 4200 4550 60  0001 C CNN
+F 3 "" H 4200 4550 60  0001 C CNN
+	1    4200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U77
+U 1 1 5EDF35FB
+P 4200 3850
+F 0 "U77" H 4100 3900 60  0000 L CNN
+F 1 "HOLE" H 4100 3800 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 4200 3850 60  0001 C CNN
+F 3 "" H 4200 3850 60  0001 C CNN
+	1    4200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U74
+U 1 1 5EDF458B
+P 3850 4900
+F 0 "U74" H 3750 4950 60  0000 L CNN
+F 1 "HOLE" H 3750 4850 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 3850 4900 60  0001 C CNN
+F 3 "" H 3850 4900 60  0001 C CNN
+	1    3850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U76
+U 1 1 5EDF45A3
+P 4200 4900
+F 0 "U76" H 4100 4950 60  0000 L CNN
+F 1 "HOLE" H 4100 4850 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 4200 4900 60  0001 C CNN
+F 3 "" H 4200 4900 60  0001 C CNN
+	1    4200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H20
+U 1 1 5EF2254B
+P 1150 4900
+F 0 "H20" H 1250 4946 50  0000 L CNN
+F 1 "MountingHole" H 1250 4855 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 1150 4900 50  0001 C CNN
+F 3 "~" H 1150 4900 50  0001 C CNN
+	1    1150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H21
+U 1 1 5EF22551
+P 1950 4900
+F 0 "H21" H 2050 4946 50  0000 L CNN
+F 1 "MountingHole" H 2050 4855 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 1950 4900 50  0001 C CNN
+F 3 "~" H 1950 4900 50  0001 C CNN
+	1    1950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U75
+U 1 1 5EDF4591
+P 3850 5250
+F 0 "U75" H 3750 5300 60  0000 L CNN
+F 1 "HOLE" H 3750 5200 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 3850 5250 60  0001 C CNN
+F 3 "" H 3850 5250 60  0001 C CNN
+	1    3850 5250
+	1    0    0    -1  
+$EndComp
+Text Notes 4100 5300 0    50   ~ 0
+Mouse\nBites
+Wire Notes Line
+	4400 2950 4400 5450
+Wire Notes Line
+	4400 5450 3650 5450
+Wire Notes Line
+	3650 5450 3650 2950
+Wire Notes Line
+	2650 5200 1000 5200
+Wire Notes Line
+	1000 2950 1000 5200
+Wire Notes Line
+	2650 2950 2650 5200
 $EndSCHEMATC

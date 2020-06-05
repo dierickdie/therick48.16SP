@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:therick64BASP_top_plate-cache
+LIBS:therick48.16SP_top_plate-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -807,17 +807,6 @@ F 3 "~" H 4650 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U65
-U 1 1 5F470017
-P 5900 3100
-F 0 "U65" H 6078 3153 60  0000 L CNN
-F 1 "HOLE" H 6078 3047 60  0000 L CNN
-F 2 "acheron_Hardware:MouseBite_IPC7351" H 5900 3100 60  0001 C CNN
-F 3 "" H 5900 3100 60  0001 C CNN
-	1    5900 3100
-	1    0    0    -1  
-$EndComp
-$Comp
 L lets_split-cache:HOLE U66
 U 1 1 5F4730F9
 P 6500 3100
@@ -839,16 +828,10 @@ F 3 "" H 5900 3500 60  0001 C CNN
 	1    5900 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 6400 3600 0    50   ~ 0
+Text Notes 6350 4300 0    50   ~ 0
 Mouse Bites
 Wire Notes Line
 	5700 2900 6950 2900
-Wire Notes Line
-	6950 2900 6950 3700
-Wire Notes Line
-	6950 3700 5700 3700
-Wire Notes Line
-	5700 3700 5700 2900
 $Comp
 L Mechanical:MountingHole H12
 U 1 1 5EBE03EF
@@ -979,4 +962,87 @@ Wire Notes Line
 	5350 5300 3550 5300
 Wire Notes Line
 	3550 5300 3550 4300
+$Comp
+L lets_split-cache:HOLE U65
+U 1 1 5F470017
+P 5900 3100
+F 0 "U65" H 6078 3153 60  0000 L CNN
+F 1 "HOLE" H 6078 3047 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 5900 3100 60  0001 C CNN
+F 3 "" H 5900 3100 60  0001 C CNN
+	1    5900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U68
+U 1 1 5EDD510F
+P 5900 3900
+F 0 "U68" H 6078 3953 60  0000 L CNN
+F 1 "HOLE" H 6078 3847 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 5900 3900 60  0001 C CNN
+F 3 "" H 5900 3900 60  0001 C CNN
+	1    5900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U70
+U 1 1 5EDD5355
+P 6500 3900
+F 0 "U70" H 6678 3953 60  0000 L CNN
+F 1 "HOLE" H 6678 3847 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 6500 3900 60  0001 C CNN
+F 3 "" H 6500 3900 60  0001 C CNN
+	1    6500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U69
+U 1 1 5EDD567D
+P 6500 3500
+F 0 "U69" H 6678 3553 60  0000 L CNN
+F 1 "HOLE" H 6678 3447 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 6500 3500 60  0001 C CNN
+F 3 "" H 6500 3500 60  0001 C CNN
+	1    6500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U71
+U 1 1 5EDDA57B
+P 5900 4300
+F 0 "U71" H 6078 4353 60  0000 L CNN
+F 1 "HOLE" H 6078 4247 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 5900 4300 60  0001 C CNN
+F 3 "" H 5900 4300 60  0001 C CNN
+	1    5900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H19
+U 1 1 5EE333EF
+P 3700 5450
+F 0 "H19" H 3800 5496 50  0000 L CNN
+F 1 "MountingHole" H 3800 5405 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 3700 5450 50  0001 C CNN
+F 3 "~" H 3700 5450 50  0001 C CNN
+	1    3700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H20
+U 1 1 5EE333F5
+P 3700 5650
+F 0 "H20" H 3800 5696 50  0000 L CNN
+F 1 "MountingHole" H 3800 5605 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 3700 5650 50  0001 C CNN
+F 3 "~" H 3700 5650 50  0001 C CNN
+	1    3700 5650
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6950 2900 6950 4500
+Wire Notes Line
+	6950 4500 5700 4500
+Wire Notes Line
+	5700 4500 5700 2900
 $EndSCHEMATC

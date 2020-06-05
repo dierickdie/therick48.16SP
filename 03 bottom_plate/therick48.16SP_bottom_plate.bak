@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:therick64BASP_bottom_plate-cache
+LIBS:therick48.16SP_bottom_plate-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -196,10 +196,8 @@ F 3 "~" H 1950 4700 50  0001 C CNN
 	1    1950 4700
 	1    0    0    -1  
 $EndComp
-Text Notes 4100 3900 0    50   ~ 0
+Text Notes 4100 5650 0    50   ~ 0
 Mouse\nBites
-Wire Notes Line
-	3650 2950 3650 4050
 $Comp
 L lets_split-cache:HOLE U1
 U 1 1 5F4B4D1C
@@ -907,10 +905,6 @@ $EndComp
 Wire Notes Line
 	3650 2950 4400 2950
 Wire Notes Line
-	4400 2950 4400 4050
-Wire Notes Line
-	4400 4050 3650 4050
-Wire Notes Line
 	2950 2950 3350 2950
 Wire Notes Line
 	3350 2950 3350 3450
@@ -1033,4 +1027,141 @@ Wire Notes Line
 	2650 5350 1000 5350
 Wire Notes Line
 	1000 5350 1000 5050
+$Comp
+L lets_split-cache:HOLE U71
+U 1 1 5EDDB181
+P 3150 3700
+F 0 "U71" H 3050 3750 60  0000 L CNN
+F 1 "HOLE" H 3050 3650 60  0000 L CNN
+F 2 "Artwork:THERICK" H 3150 3700 60  0001 C CNN
+F 3 "" H 3150 3700 60  0001 C CNN
+	1    3150 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 3000 3950 0    50   ~ 0
+Graphic
+Wire Notes Line
+	2950 4000 2950 3500
+Wire Notes Line
+	2950 3500 3350 3500
+Wire Notes Line
+	3350 3500 3350 4000
+Wire Notes Line
+	3350 4000 2950 4000
+$Comp
+L lets_split-cache:HOLE U72
+U 1 1 5EDF35E3
+P 3850 4200
+F 0 "U72" H 3750 4250 60  0000 L CNN
+F 1 "HOLE" H 3750 4150 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 3850 4200 60  0001 C CNN
+F 3 "" H 3850 4200 60  0001 C CNN
+	1    3850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U73
+U 1 1 5EDF35E9
+P 3850 4550
+F 0 "U73" H 3750 4600 60  0000 L CNN
+F 1 "HOLE" H 3750 4500 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 3850 4550 60  0001 C CNN
+F 3 "" H 3850 4550 60  0001 C CNN
+	1    3850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U78
+U 1 1 5EDF35EF
+P 4200 4200
+F 0 "U78" H 4100 4250 60  0000 L CNN
+F 1 "HOLE" H 4100 4150 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 4200 4200 60  0001 C CNN
+F 3 "" H 4200 4200 60  0001 C CNN
+	1    4200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U79
+U 1 1 5EDF35F5
+P 4200 4550
+F 0 "U79" H 4100 4600 60  0000 L CNN
+F 1 "HOLE" H 4100 4500 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 4200 4550 60  0001 C CNN
+F 3 "" H 4200 4550 60  0001 C CNN
+	1    4200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U77
+U 1 1 5EDF35FB
+P 4200 3850
+F 0 "U77" H 4100 3900 60  0000 L CNN
+F 1 "HOLE" H 4100 3800 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 4200 3850 60  0001 C CNN
+F 3 "" H 4200 3850 60  0001 C CNN
+	1    4200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U74
+U 1 1 5EDF458B
+P 3850 4900
+F 0 "U74" H 3750 4950 60  0000 L CNN
+F 1 "HOLE" H 3750 4850 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 3850 4900 60  0001 C CNN
+F 3 "" H 3850 4900 60  0001 C CNN
+	1    3850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U75
+U 1 1 5EDF4591
+P 3850 5250
+F 0 "U75" H 3750 5300 60  0000 L CNN
+F 1 "HOLE" H 3750 5200 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 3850 5250 60  0001 C CNN
+F 3 "" H 3850 5250 60  0001 C CNN
+	1    3850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U80
+U 1 1 5EDF4597
+P 4200 4900
+F 0 "U80" H 4100 4950 60  0000 L CNN
+F 1 "HOLE" H 4100 4850 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 4200 4900 60  0001 C CNN
+F 3 "" H 4200 4900 60  0001 C CNN
+	1    4200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U81
+U 1 1 5EDF459D
+P 4200 5250
+F 0 "U81" H 4100 5300 60  0000 L CNN
+F 1 "HOLE" H 4100 5200 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 4200 5250 60  0001 C CNN
+F 3 "" H 4200 5250 60  0001 C CNN
+	1    4200 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U76
+U 1 1 5EDF45A3
+P 3850 5600
+F 0 "U76" H 3750 5650 60  0000 L CNN
+F 1 "HOLE" H 3750 5550 60  0000 L CNN
+F 2 "acheron_Hardware:MouseBite_IPC7351" H 3850 5600 60  0001 C CNN
+F 3 "" H 3850 5600 60  0001 C CNN
+	1    3850 5600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4400 5800 3650 5800
+Wire Notes Line
+	3650 2950 3650 5800
+Wire Notes Line
+	4400 2950 4400 5800
 $EndSCHEMATC
