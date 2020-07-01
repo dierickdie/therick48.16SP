@@ -3598,4 +3598,45 @@ Wire Notes Line
 	11400 6650 13100 6650
 Wire Notes Line
 	11400 7650 13100 7650
+$Comp
+L Device:Rotary_Encoder_Switch SW3
+U 1 1 5EFCABC9
+P 5850 1350
+F 0 "SW3" H 5850 983 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 5850 1074 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 5700 1510 50  0001 C CNN
+F 3 "~" H 5850 1610 50  0001 C CNN
+	1    5850 1350
+	-1   0    0    1   
+$EndComp
+Text GLabel 6150 1250 2    50   Input ~ 0
+EncB
+Text GLabel 6150 1450 2    50   Input ~ 0
+EncA
+$Comp
+L power:GND #PWR0129
+U 1 1 5EFCABD1
+P 6150 1350
+F 0 "#PWR0129" H 6150 1100 50  0001 C CNN
+F 1 "GND" V 6155 1222 50  0000 R CNN
+F 2 "" H 6150 1350 50  0001 C CNN
+F 3 "" H 6150 1350 50  0001 C CNN
+	1    6150 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 1950 5550 1450
+Connection ~ 5550 1950
+Wire Wire Line
+	5550 1250 5550 900 
+Wire Wire Line
+	5550 900  6450 900 
+Wire Wire Line
+	6450 900  6450 1900
+Wire Wire Line
+	6450 1900 6300 1900
+Wire Wire Line
+	6300 1900 6300 1950
+Wire Wire Line
+	6300 1950 6250 1950
 $EndSCHEMATC
