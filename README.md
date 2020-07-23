@@ -7,7 +7,7 @@ A 4x12 + 4x4 (48.16) ortho keyboard with USB C, SMD components, and 19mm spacing
 
 This is essentially a dumbed down Planck clone plus a southpaw numpad. The numpad is able to be snapped off to have just a 4x12.
 
-If you want a regular side numpad, look at the [therick48.16](https://github.com/therickthe/therick64BA). It uses the same firmware.
+If you want a regular side numpad, look at the [therick48.16](https://github.com/dierickdie/therick64BA). It uses the same firmware.
 
 **Note: firmware is the same as therick48.16**
 
@@ -26,7 +26,7 @@ No
 No
 
 #### Does it have a rotary encoder?
-No
+~No~ Yep! There are 8 (lol) choices for location. However, only support for 2. Left and right.
 
 #### Does it have hotswap?
 No
