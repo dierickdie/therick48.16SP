@@ -1,5 +1,5 @@
 # therick48.16SP
-![alt text](https://github.com/therickthe/therick48.16SP/blob/master/01%20therick48.16SP_PCB.png)
+![alt text](https://github.com/dierickdie/therick48.16SP/blob/master/01_therick48.16SP_PCB.png)
 
 SP = Southpaw
 
